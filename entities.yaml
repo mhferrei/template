@@ -1,8 +1,16 @@
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-system
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
   name: ci-template
+  description: Template for Cloud Integration Iflow
+  tags:
+    - SAP BTP
+    - SAP Cloud Integration
+    - SAP Integration Suite
 spec:
-  owner: guests
+  type: service
+  lifecycle: production
+  owner: mhferrei
+  system: sap-ci
