@@ -3,10 +3,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ci-template
-  description: Template for Cloud Integration Iflow
+    name: ci-template
+    description: Template for Cloud Integration Iflow
+    tags:
+        - sap-cloud-integration
 spec:
-  type: service
-  lifecycle: production
-  owner: mhferrei
-  system: sap-ci
+    type: service
+    lifecycle: production
+    owner: mhferrei
+    system: sap-ci
