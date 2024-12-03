@@ -6,9 +6,9 @@ metadata:
   name: ci-template
   description: Template for Cloud Integration Iflow
   tags:
-    -BTP
-    -CloudIntegration
-    -IntegrationSuite
+    -sap-btp
+    -sap-cloud-integration
+    -sap-integration-suite
 spec:
   type: service
   lifecycle: production
