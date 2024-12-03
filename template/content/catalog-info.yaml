@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: ${{ values.packageId | dump }}_${{ values.iflowId | dump }}
-spec:
-  type: service
-  owner: marcoshferreira/sap-ci
-  lifecycle: experimental
