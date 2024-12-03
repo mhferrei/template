@@ -1,0 +1,7 @@
+site_name: ${{ values.iflowId | dump }}
+site_description: ${{ values.packageId | dump }}_${{ values.iflowId | dump }}
+nav:
+    - Introduction: index.md
+
+plugins:
+    - techdocs-core
